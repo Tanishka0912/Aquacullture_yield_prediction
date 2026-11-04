@@ -1,10 +1,10 @@
-# 🐟 Aquaculture Yield Prediction
+#  Aquaculture Yield Prediction
 
 Predicting **harvest yield per acre (kg)** of aquaculture ponds using Linear Regression and regularized regression (Ridge, Lasso, ElasticNet), with full data cleaning, EDA and regression diagnostics.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Aquaculture farmers need to know which pond and management factors actually move harvest. This project:
 
@@ -17,7 +17,7 @@ Aquaculture farmers need to know which pond and management factors actually move
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Rows / columns:** 2,302 × 22 (2,300 rows after removing duplicates)
 - **Granularity:** one row per pond
@@ -38,7 +38,7 @@ Aquaculture farmers need to know which pond and management factors actually move
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 | Step | What was done |
 |---|---|
@@ -52,7 +52,7 @@ Aquaculture farmers need to know which pond and management factors actually move
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Value |
 |---|---|
@@ -71,7 +71,7 @@ Ridge, Lasso and ElasticNet scored the same as plain Linear Regression (test R²
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 - **Feed per acre** and **stocking density** are the strongest drivers of harvest (correlations 0.71 and 0.65). About +435 kg harvest per extra 1,000 kg of feed per acre, and about +138 kg per extra 1,000 seeds per acre, other factors held equal.
 - **Species** matters most among categories: Pangasius yields about 2,200 kg/acre more than Catla (the baseline).
@@ -123,8 +123,4 @@ A fixed seed (`57`) is used for the random fills and the train-test split, so re
 └── README.md
 ```
 
----
 
-## 👤 Author
-
-*Your name here*
